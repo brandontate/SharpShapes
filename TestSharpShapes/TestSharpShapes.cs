@@ -10,7 +10,7 @@ namespace TestSharpShapes
     {
         public class MyShape : Shape
         {
-            public override void Scale(int percent)
+            public override void Scale(decimal percent)
             {
                 throw new NotImplementedException();
             }
