@@ -53,7 +53,7 @@ namespace SharpShapes
         /// </summary>
         /// <param name="percent"> The percent by which to scale the shape </param>
         //resize a shape by percent
-        abstract public void Scale(int percent);
+        abstract public void Scale(decimal percent);
 
     }
 }

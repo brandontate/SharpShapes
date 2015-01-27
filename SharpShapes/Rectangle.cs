@@ -14,7 +14,7 @@ namespace SharpShapes
         }
 
         private decimal height;
-        public decimal Height
+        public decimal Height 
         {
             get { return this.height; }
         }
@@ -34,7 +34,7 @@ namespace SharpShapes
             return width * height;
         }
 
-        public Rectangle(int width, int height)
+        public Rectangle(decimal width, decimal height)
         {
             if (width <= 0 || height <= 0)
             {
